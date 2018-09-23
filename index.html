@@ -11,7 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
   <body>
-      <header class="main-header" id="#top">
+    <!--ARIA-role helps screen readers jumping in navigation-->
+      <header class="main-header" id="#top" role="banner">
 			   <div class="container clearfix">
 				<ul class="main-nav">
 	<!--Adding Tabindex, the global attribute allows elements besides links and form elements to receive keyboard focus-->
@@ -26,7 +27,7 @@
 		   <a class="tagline" href="#portfolio">Check out my work!</a>
 	    </header><!--/.main-header-->
     
-	<main class="wrap">   
+	<main class="wrap" role="main">   
 	  
 	  <section id="portfolio">
 	    <h2>PORTFOLIO (my completed projects)</h2><br>
@@ -120,7 +121,7 @@
           </a>  <br>
 		   
 		</p>		
-	    <p class="copyright">copyright &copy;2018 Hasina Akhter All rights reserved.</p>
+	    <p class="copyright" role="content-info">copyright &copy;2018 Hasina Akhter All rights reserved.</p>
 	    <a href="#top">
           <i class="fa fa-arrow-circle-up" style="font-size:42px;color:coral; line-height: 1.5;"></i>		
 	    </a>
