@@ -27,6 +27,14 @@ $(".cafe").mouseenter(function(){
 $(".cafe").mouseleave(function(){
 	$(".cafe1").text("cafeblack");	
 });
+$(".kitchen").mouseenter(function(){
+	$(".kitchen1 ").html("<b>A restaurant website <br> Built on WordPress<br>Optimized to different devices</b>");
+    $(".kitchen1 ").css("font-family" ,"Bree serif");
+});
+$(".kitchen").mouseleave(function(){
+	$(".kitchen1").text("thekitchen");	
+});
+
 $(".main").slideUp(2000).delay(1000).slideDown(2000);
 
 
