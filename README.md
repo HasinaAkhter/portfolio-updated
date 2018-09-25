@@ -1,6 +1,6 @@
 #  This is my updated portfolio 
 This is the latest vesion of my portfolio. I have updated the original files  publisted on April,2018 to meet best coding and design practices. 
-## Check out the project
+## Check out the site
 [Click here to see the project]
 (https://hasinaakhter.github.io/portfolio-updated/)
 ### Goals of the update 
