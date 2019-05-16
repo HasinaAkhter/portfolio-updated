@@ -13,6 +13,13 @@ $(".guide").mouseenter(function(){
 $(".guide").mouseleave(function(){
 	$(".guide1").text("agoodlifeguide");	
 });
+$(".news").mouseenter(function(){
+	$(".news1 ").html("<b>An email newsletter template Operable on verious email clients <br> Optimized to different devices</b>");
+    $(".news1 ").css("font-family" ,"Bree serif");
+});	
+$(".news").mouseleave(function(){
+	$(".news1").text("newsletter");	
+});
 $(".app").mouseenter(function(){
 	$(".app1 ").html("<b>A todo tracker built on Bootswatch and Javascript <br>Optimized to different devices</b>");
     $(".app1 ").css("font-family" ,"Bree serif");
@@ -27,20 +34,7 @@ $(".photogallery").mouseenter(function(){
 $(".photogallery").mouseleave(function(){
 	$(".photo1").text("photogallery");	
 });
-$(".cafe").mouseenter(function(){
-	$(".cafe1 ").html("<b>A restaurant website <br> Built on php<br>Optimized to different devices</b>");
-    $(".cafe1 ").css("font-family" ,"Bree serif");
-});
-$(".cafe").mouseleave(function(){
-	$(".cafe1").text("cafeblack");	
-});
-$(".kitchen").mouseenter(function(){
-	$(".kitchen1 ").html("<b>A restaurant website <br> Built on WordPress<br>Optimized to different devices</b>");
-    $(".kitchen1 ").css("font-family" ,"Bree serif");
-});
-$(".kitchen").mouseleave(function(){
-	$(".kitchen1").text("thekitchen");	
-});
+
 
 $(".main").slideUp(2000).delay(1000).slideDown(2000);
 
